@@ -1,15 +1,24 @@
-# Installation
+# Installation and First Program
 
-## Download installer or source code
+## Download Installer
 
 <https://golang.org/dl/>
 
 ## Create a module
 
 ```bash
-mkdir hello
-cd hello
-go mod init github.com/rjha1/hello
+$ mkdir hello
+$ cd hello
+$ go mod init github.com/rjha1/hello
+```
+
+### Generated go.mod
+
+```bash
+$ cat hello/go.mod
+module github.com/rjha1/hello
+
+go 1.16
 ```
 
 ## Hello World
@@ -25,13 +34,13 @@ func main() {
 }
 ```
 
-## Build and run
+## Build and Run
 
 ```bash
-go build hello.go
-./hello
+$ go build hello.go
+$ ./hello
 ```
 
 ```bash
-go run hello.go
+$ go run hello.go
 ```
