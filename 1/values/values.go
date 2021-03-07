@@ -4,6 +4,10 @@ import "fmt"
 
 func main() {
 	// integers
+	var x int
+	x = 1
+	fmt.Println(x)
+
 	var a int = 10
 	var b = -20
 	c := 0
