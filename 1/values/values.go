@@ -35,10 +35,12 @@ func main() {
 	var l = "Good morning!"
 	m := "おはようございます！"
 	fmt.Printf("'%s' in Japanese is '%s'.\n", l, m)
+	n := `literal string with " ' \`
+	fmt.Println(n)
 
 	// bool
-	var n bool = true
-	var o = false
-	p := n && o
-	fmt.Println(p)
+	var o bool = true
+	var p = false
+	q := o && p
+	fmt.Println(q)
 }
