@@ -1,28 +1,26 @@
 # Introduction to Go
 
-## Basic
-
 1. [Installation and First Program](0)
 1. [Value Types, Variables and Constants](1)
 1. [Control Flow](2)
 1. [Collection Types](3)
 1. [Functions and Error Handling](4)
 1. [Pointers](5)
-1. [Structs and Type Aliases](6)
-1. [Methods](7)
-1. [Interfaces](8)
+1. [Custom Types](6)
+1. [Working with Packages](7)
 
-file io (io, bufio, io/ioutil)
-regexp
-json
-time
-net/url
-net/http
+## TODO
 
-HTTP Client
-HTTP Server
+1. testing
+1. file io (io, bufio, io/ioutil)
+1. regexp
+1. json
+1. time
+1. net/url
+1. net/http
+1. HTTP Clients and Servers
 
-## Advanced
+## Concurrency
 
 Goroutines
 Channels
