@@ -5,8 +5,8 @@
 1. [Installation and First Program](0)
 1. [Value Types, Variables and Constants](1)
 1. [Control Flow](2)
-1. [Functions and Error Handling](3)
-1. [Arrays, Slices and Maps](4)
+1. [Collection Types](3)
+1. [Functions and Error Handling](4)
 1. [Panic](5)
 1. [Defer](6)
 
