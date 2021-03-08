@@ -3,6 +3,7 @@ package main
 import (
 	"errors"
 	"fmt"
+	"math"
 )
 
 func add(x int, y int) int {
@@ -34,6 +35,10 @@ func safeDivide(x, y int) (int, int, error) {
 	return q, r, nil
 }
 
+func power(x, y float64) float64 {
+	return math.Pow(x, y)
+}
+
 func main() {
 	sum := add(2, 3)
 	fmt.Printf("Sum: %v\n", sum)
@@ -50,4 +55,7 @@ func main() {
 	} else {
 		fmt.Printf("Quotient: %v, Remainder: %v\n", safeQuotient, safeRemainder)
 	}
+
+	exp := power(2, 3)
+	fmt.Printf("2^3: %v\n", exp)
 }
