@@ -11,8 +11,9 @@
 
 ## TODO
 
+1. logging
 1. testing
-1. file io (io, bufio, io/ioutil)
+1. io, bufio
 1. regexp
 1. json
 1. time
@@ -20,7 +21,7 @@
 1. net/http
 1. HTTP Clients and Servers
 
-## Concurrency
+### Concurrency
 
 Goroutines
 Channels
