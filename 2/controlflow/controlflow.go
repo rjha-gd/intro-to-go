@@ -46,4 +46,18 @@ func main() {
 		fmt.Println(k)
 		k++
 	}
+
+	// switch
+	x := 2
+	fmt.Print("Write ", x, " as ")
+	switch x {
+	case 1:
+		fmt.Println("one")
+	case 2:
+		fmt.Println("two")
+	case 3:
+		fmt.Println("three")
+	default:
+		fmt.Println("?")
+	}
 }
