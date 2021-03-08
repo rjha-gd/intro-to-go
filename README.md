@@ -7,7 +7,6 @@
 1. [Functions and Error Handling](4)
 1. [Pointers](5)
 1. [Custom Types](6)
-1. [Working with Packages](7)
 
 ## TODO
 
