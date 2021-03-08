@@ -22,5 +22,5 @@
 
 ### Concurrency
 
-Goroutines
-Channels
+1. Goroutines
+1. Channels
