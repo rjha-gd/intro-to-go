@@ -39,6 +39,14 @@ func power(x, y float64) float64 {
 	return math.Pow(x, y)
 }
 
+func intSeq() func() int {
+	i := 0
+	return func() int {
+		i++
+		return i
+	}
+}
+
 func main() {
 	sum := add(2, 3)
 	fmt.Printf("Sum: %v\n", sum)
@@ -58,4 +66,11 @@ func main() {
 
 	exp := power(2, 3)
 	fmt.Printf("2^3: %v\n", exp)
+
+	nextInt := intSeq()
+	fmt.Println(nextInt())
+	fmt.Println(nextInt())
+	newNextInt := intSeq()
+	fmt.Println(newNextInt())
+	fmt.Println(newNextInt())
 }
