@@ -7,15 +7,10 @@
 1. [Control Flow](2)
 1. [Collection Types](3)
 1. [Functions and Error Handling](4)
-1. [Panic](5)
-1. [Defer](6)
-
-## Intermediate
-
-1. [Pointers](10)
-1. [Structs](11)
-1. [Methods](12)
-1. [Interfaces](13)
+1. [Structs and Type Aliases](5)
+1. [Pointers](6)
+1. [Methods](7)
+1. [Interfaces](8)
 
 file io (io, bufio, io/ioutil)
 regexp
