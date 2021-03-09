@@ -8,6 +8,7 @@
 1. [Pointers](5)
 1. [Custom Types](6)
 
+<!-- 
 ## TODO
 
 1. logging
@@ -23,4 +24,4 @@
 ### Concurrency
 
 1. Goroutines
-1. Channels
+1. Channels -->
